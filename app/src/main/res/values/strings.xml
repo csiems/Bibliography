@@ -1,0 +1,40 @@
+<resources>
+    <!--General-->
+    <string name="app_name">Bibliography</string>
+    <string name="action_settings">Settings</string>
+
+    <!--External Keys-->
+    <string name="API_KEY">85NAH24C</string>
+    <string name="firebase_url">https://librarius.firebaseio.com/</string>
+
+    <!--Manual Entry Form-->
+    <string name="instructionsTitle">Enter your source information in the following fields:</string>
+    <string name="authorLastName">Author Last Name</string>
+    <string name="authorFirstName">Author First Name</string>
+    <string name="bookTitle">Book Title</string>
+    <string name="advancedInfo">Advanced Info (optional):</string>
+    <string name="bookVol">Vol.</string>
+    <string name="bookEd">Ed.</string>
+    <string name="bookSeries">Series</string>
+    <string name="publicationInfo">Publication Info:</string>
+    <string name="bookPublisher">Publisher Name</string>
+    <string name="bookCity">City</string>
+    <string name="bookYear">Year</string>
+
+    <!--Bibliography Page-->
+    <string name="bibliographyBookStandard">
+        %1$s, %2$s. <i>%3$s</i>. %4$s: %5$s, %6$s. <!--last, first. title. city: publisher, year.-->
+    </string>
+    <string name="bibliographyBookAdvanced">
+        %1$s, %2$s. <i>%3$s</i>. Ed. %4$s. Vol. %5$s. %6$s: %7$s, %8$s. Print. %9$s. <!--last, first. title. edition. volume. city: publisher, year. series.-->
+    </string>
+
+    <!--Search Page-->
+    <string name="searchInstructionsTitle">Enter the ISBN of the book below.</string>
+    <string name="searchHint">ISBN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
